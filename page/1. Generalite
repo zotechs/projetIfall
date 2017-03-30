@@ -1,0 +1,26 @@
+1. Generalite 
+
+a. notion de reseau
+un reseau designe un ensemble de composant materiels et logiciels gegraphiquement diperse mais relies entre  eux par dees liens physiques ou non  dans le but de partager des ressources ou de transporter des donnees.
+les differents composants et regle assurant le bon fonction d'un reseau peuvent etre structures en 3 grandes parties
+- Infrastructure (materiel)
+- Adressage
+- les services
+
+b- infrastructure reseau
+c- adressage
+d- service reseau
+un service reseau est designe une application permettant d'effectuer une tache a distance a travers un resaeu ce tyoe d'application respecte un modele specifique appele architecture client serveur
+dans l'architecture client sreveur le client et le serveur constitue un module de l'application. le client envoie des requetes aux serveur. le serveur recoit traite et renvoi le resultat au client
+pour que le client comunique avec le serveur il utilise les elements suivant:
+
+- adresse du serveur
+- port d'ecoute du serveur
+- protocole de communication
+
+-isc-dhcp-server
+-bind9 dnsutils
+-mysql-serveur  mysql-client phpmyadmin
+- slap dd5,3-util ldap-utils phpldapadmin
+openjdk-7-jdk
+-ssh

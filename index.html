@@ -93,6 +93,22 @@
 			     transition:background-color .3s ease;
 			     font-size: 0.9em;
 			}
+
+           
+                    .tofdev {
+                                   
+                                   width:60%;
+                                   height:40%;
+                                   overflow:hidden; 
+                             }
+
+                          .ofdev{
+                                   border-radius:100% 100% 100% 100%; 
+                                   width:100%;
+                                   height:100%;
+                                   overflow:hidden; 
+                             }
+
 			nav ul li a:hover,ul li a:focus{
 			     color:#ffffff;
 			     background-color:rgba(255,255,255,.4);
@@ -121,6 +137,15 @@
 			nav ul li:nth-child(3):hover ~ li:last-child::after{left:17.6%;width:10%;}
 			nav ul li:last-child:hover::after{left:27.7%;width:7.5%;}
 
+			ul li
+			{
+				display: inline-block;
+			}
+			ul
+			{
+				list-style: none;
+			}
+
 	 </style>
 </head>
 
@@ -130,10 +155,10 @@
 		<img src="image/logo.png" style="width:100%;height: 100%; margin-left: 4%" ></div>
 		<nav>
 			<ul>
-			     <li ><a href="index.html"> Acceuil</a></li>
-			     <li><a href="page/research.php">Consulter Prestataire</a></li>
-			     <li><a  href="page/connexion.php">Compte Prestataire</a></li>
-			     <li><a href="page/connexion1.php">Compte Client</a></li>
+			     <li ><a href="index.html"> Accueil</a></li>
+			     <li><a href="page/noter.php">Consulter Prestataire</a></li>
+			     <li><a  href="page/connexion.php">Prestataire</a></li>
+			     <li><a href="page/connexion1.php">Solliciteur</a></li>
 			</ul>
 		</nav>
 	
@@ -189,10 +214,117 @@ button:focus,input[type=button]:focus {
 
 	}
 </style>
+<div style ="width:80%; height:20%; background-color:white; border-radius:10px; padding:2%; margin-left: 7%">
+	<div style=" width: 12%; height: 90%; float: left;">
+		 <img src="image/tof.png" style ="width:100%; height:100%; float: left;">
+	</div>
+	
+	 <label  style="color:black; width:50%;  text-align:center; font-size:1.3em;" > 
+	 	La plateforme GoorGoorlou est disponible sur tous vos supports de communication connectes au reseau internet!
+      Elle vous facilite ainsi l'utilisation de ses fonctionnalites quelque soit l'endroit ou vous vous trouvez.
+     Goorgoolou est ainsi le premier site entierement dedie a vos activites et qui vous suit partout.
+     Vous pouvez egalement disposez de l'appli mobile en appuyant 
+     <a href="GoorGoolu.apk" style="color: black">ici</a>
+     <div style=" width: 2%; height: 6%; float: left; margin-left: 40%; position: absolute; ">
+     	<a href="GoorGoolu.apk" style="color: black"><img src="image/logmin.png" style="width: 100% ; margin-left:80% ; float: left">
+     	<label>Download</label>
+     </div></a>
+	 </label>
+
+</div>
+
+<table align="center" style="margin-bottom: 2%">
+ <tr>
+    <td>
+         <div class="ofdev" >  <img src="image/aicha.png" > </div>
+    </td>
+    <td >
+        <div class="ofdev" >   <img src="image/oumar.png"></div>
+    </td>
+    <td >
+        <div class="ofdev" >   <img src="image/Diye.png"></div>
+    </td>
+</tr>
+<tr>
+    < <td style="padding-left: 5%">
+    <label style="display: block; font-weight: bolder;"> AiCha War</label>
+        
+      <label style="display: block; font-weight: bolder;">Technicienne en Informatique</label>
+        
+       
+        <label style="display: block; font-weight: bolder;" >Mail: war@gmail.com</label>
+       
+    </td>
+    < <td style="padding-left: 5%">
+    <label style="display: block; font-weight: bolder;"> Oumar Ndiaye</label>
+        
+      <label style="display: block; font-weight: bolder;">Analyste Programmeur</label>
+        
+       
+        <label style="display: block; font-weight: bolder;" >Mail : Oumarndiayee@ikane.co</label>
+       
+    </td>
+    <td style="padding-left: 5%">
+    <label style="display: block; font-weight: bolder;"> Diye Balde</label>
+        
+      <label style="display: block; font-weight: bolder;">Technicienne en Informatique</label>
+        
+       
+        <label style="display: block; font-weight: bolder;" >Mail: baldediye34@gmail.com</label>
+       
+    </td>
+</tr>
+</table>
 
 </body>
-<footer style="background-color:black; width:100%; height:300px; opacity:0.4">
-	
+
+
+
+<footer style="background-color:#37474f; width:100%; height:400px; ">	
+<table style="width:95%" align="center">
+       <tr>
+           <td width="45%">
+            <h2 style="color:white">Contactez Nous</h2>
+            
+            <p style="color:white">C'est gratuit</p>
+            <br/>
+          <form action="functios.php" method="post">
+            <input type="text" name="nom" placeholder="Nom" required="required" style="width:70%"></input>
+            <br/><br/>
+            <input type="mail" name="mail" placeholder="Mail" required="required" style="width:70%"></input>
+            <br/><br/>
+            <input type="text" name="sujet" placeholder="Sujet" required="required" style="width:70%"></input>
+            <br/><br/>
+            <input type="text" name="message" placeholder="Message" required="required" style="width:70%"></input>
+           <br/><br/><br/>
+           <input type="submit" value="Envoyer" style="width:15%; size:45%" onclick="merci()"></input>
+            </form>
+          <br/><br/>
+              </td>
+
+            <td>
+              <h2 style="color:white"><u>Beaute</u></h2>                        <h4 style="color:white"> Coiffure<br/>
+               Soins<br/>Mode<br/>Make up<br/>Conseils<br/>Evenementiel<br/>Location d'Habits<br/>Ateliers Couture<br/>Vendeur de Chaussures<br/>Massage<br/>Cosmetique
+              </h4> <br/>
+            </td>
+
+             <td>
+              <h2 style="color:white"><u>Technique</u></h2>              <h4 style="color:white"> Plombier<br/>
+               Menusier<br/>Mecanicien<br/>Macon<br/>Maintenancier<br/>Peintre<br/>vendeur de ferraille<br/>Quincailleries<br/>Informaticien<br/>Electricien<br/>
+              </h4> 
+                <br/><br/>
+            </td>
+
+            <td>
+              <h2 style="color:white"><u>Utilitaires</u></h2>              <h4 style="color:white">Employee de maison<br/>
+               Boy<br/>Traiteur<br/>Lessive<br/>Fleuriste<br/>Decorateur d'interieur<br/>Location d'ustensiles de cuisine<br/>Babysitter<br/>Restaurants/Fast-Food
+              </h4> 
+			  <br/><br/><br/>
+
+
+            </td>
+     </table>
+	 
 </footer>
 
 </html>

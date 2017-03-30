@@ -1,0 +1,11 @@
+<?
+if($con)
+				{
+			
+						$_SESSION['details']=array('service'=>$_REQUEST['service'],'description'=>$_REQUEST['description'],'adresse'=>$_REQUEST['adresse']);
+						$query="insert into prestataire values('oum@oum.com','oumar','ndiaye',PASSWORD('1111'),'disponible','Homme','test','yeumbeul','2017-02-03','7754545454','tof','0','0')";
+						$result=mysqli_query($con,$query);
+						echo"ok";
+				}
+
+				?>

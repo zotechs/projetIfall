@@ -1,0 +1,265 @@
+  #borleft{
+    float: left;
+  }
+  #borleft,#bortop
+  {
+    margin-top: 0px;
+    position:fixed;
+  }
+
+  .menu_ol  {
+    position:absolute;
+    font-family:"TeXGyreReg",sans-serif;
+    font-size:0.9em;
+    font-weight:normal;
+    padding:0 0 0 2%;
+    width:98%;}
+  .menu_ul li {
+    position:relative;
+    height:100%;
+    list-style:none;
+  }
+   
+  a, .menu_ul li a {
+    color:#ffffff;
+    display:block;height:23px;
+    padding:3px 15px 0 10px;
+    text-decoration:none;
+    text-shadow:1px 1px 1px rgba(0, 0, 0, 0.7);
+  }
+  
+   .menu_ul li:hover a {
+    background:rgba(255, 255, 255, 0.1);
+  }
+   .menu_ul li:hover ul li a {
+    background:none;
+  }
+
+  
+   .menu_ul li:hover ul {
+    background:rgba(34, 26, 23, 0.8);
+    bottom:26px;
+    display:block;
+    left:0;
+    padding-left:0;
+    position:absolute;
+   }
+   .menu_ul li:hover ul ul {display:none;}
+   .menu_ul li: ul li:hover ul {background:rgba(34, 26, 23, 0.9);bottom:0;display:block;left:100%;padding-left:0;position:absolute;}
+  
+  .inf{
+    border-radius: 100% 100% 100% 100%;
+    width: 25%;
+    height: 55%;
+    overflow: hidden;
+    margin: 4% 0% 0% 10%;
+
+}
+
+   span {
+    color:#000000;
+    display:block;height:23px;
+    padding:3% 2% 0;
+    text-shadow:1px 1px 1px white;
+    width: 100%;
+
+  font-weight:bolder; 
+  }
+
+
+   
+ a{
+  text-decoration: none;
+ }
+
+ #listserv li
+ {
+    display: inline-block;
+    background-color: black; 
+    height: 15%;
+    padding-top: 2.5%;
+    width: 30%;
+    text-align: center;
+ }
+ #listserv
+ {
+  width:50%;
+  height: 50%
+ }
+  #listserv li a
+{    
+    background-color: red; 
+   
+ }
+
+
+
+ button:focus,input[type=button]:focus,.button:focus {
+      background-color: #1d7d74;
+            }
+      button,input[type=button],.button{
+          text-decoration: none;
+          color: #fff;
+          background-color: #26a69a;
+          text-align: center;
+          letter-spacing: .5px;
+          transition: .2s ease-out;
+          cursor: pointer;
+          outline: 0;
+          box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+          border: none;
+            border-radius: 2px;
+            display: inline-block;
+            height: 36px;
+            line-height: 36px;
+            padding: 0 2rem;
+          text-transform: uppercase;
+          vertical-align: middle;
+         -webkit-tap-highlight-color: transparent;
+          }
+      input[type=button]:hover,button:hover,.button:hover
+      {
+          box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 7px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2);
+           background-color: #2bbbad;
+          
+      }
+
+
+     input[type=text],
+       input[type=password],
+       input[type=email],
+       input[type=url],
+       input[type=time],
+       input[type=date],
+       input[type=datetime],
+       input[type=datetime-local],
+       input[type=tel],
+       input[type=number],
+       input[type=search],
+       input[type=textarea],
+       select{
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid ;
+        border-radius: 0;
+        outline: none;
+        height: 25px;
+        width: 90%;
+        font-size: 0.8rem;
+        padding: 0;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        box-shadow: none;
+        box-sizing: content-box;
+        transition: all 0.3s;
+      }
+
+
+      input[type=text]:focus,
+      input[type=password]:focus,
+      input[type=email]:focus,
+      input[type=url]:focus,
+      input[type=time]:focus,
+      input[type=date]:focus,
+      input[type=datetime]:focus,
+      input[type=datetime-local]:focus,
+      input[type=tel]:focus,
+      input[type=number]:focus,
+      input[type=search]:focus,
+      select:focus,
+      input[type=textarea]:focus,
+    {
+          border-bottom: 1px solid green;
+        box-shadow: 0 1px 0 0 #F44336;
+        transition: all 0.3s;
+       }
+
+      label , input,select
+      {
+        display: block;
+      }
+      label
+      {
+      font-weight: bolder;
+      }
+
+ul li
+{
+  list-style: none;
+}
+
+
+.dispo
+{
+  width:40%;
+  text-align: left;
+  padding:0 auto;
+  margin-top: -10%;
+  margin-left: 30%;
+  display: none;
+  position: absolute;
+  transition: all .5s ease;
+
+
+}
+.dispo li
+{
+   border-radius: 10% 10% 10% 10%;
+  background-color: #80cbc4;
+    display: block;
+   transition: all .5s ease;
+   text-align: center;
+
+}
+
+.dispo li:hover
+{
+  background-color: #009688;
+  transition: all .5s ease;
+  display: block;
+}
+
+.dispo:hover,#dispo:hover ~ .dispo
+{
+display: block;
+transition: all .5s ease;
+}
+.dispo li:hover ~ .dispo
+{
+display: block;
+
+
+}
+.tav li
+{
+transition: all .5s ease;
+height: 20px;
+}
+.tav li:hover ~ .tav li
+{
+  height: 100px;
+  transition: all .5s ease;
+}
+
+
+fieldset
+{
+  border-bottom: none;
+  border-right: none;
+  border-left: none;
+}
+
+.men
+{
+  
+  text-shadow: border-right;
+  background-color: #37474f;
+  box-shadow: 5px 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3);
+  color: white;
+  height: 6%;
+  padding-top: 1%;
+  width: 85%;
+  border-bottom: 1px solid white;
+  font-size: 1.3em;
+
+}
